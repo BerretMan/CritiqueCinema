@@ -24,7 +24,7 @@ h1, h2{
 p{
 	margin: 0;
 }
-/*Menu de naviguation */
+/*Menu de navigation */
 nav ul{
 	display: flex;
 	justify-content: space-between;
