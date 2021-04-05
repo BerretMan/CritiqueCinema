@@ -1,0 +1,171 @@
+	/* Import de police*/
+@font-face {
+	font-family: "ROAD MOVIE";
+	src: url("police/ROADMOVIE.ttf") format("truetype");
+}
+
+/*Modifie le curseur de la souris */
+html{ 
+	cursor: url('img/cursor.png'), auto;
+}
+/*background*/ 
+body{
+	background: url("img/pelicule.png") right, url("img/pelicule.png") left;
+	background-size: 15vw;
+	background-repeat: repeat-y;
+	overflow-x: hidden;
+}
+
+h1, h2{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+}
+/*Menu de naviguation */
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	width: 68%;
+	padding: 1.36vw;
+	margin: 0;
+}
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style-type: none;
+}
+nav.menu-nav ul li.btn a{
+	margin: 0 auto;
+	color: white;
+	background-color : black;
+	text-decoration: none;
+	padding: 1.36vw;
+	font-size: 1.7vw;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	background-color: white;
+	color: black;
+	transition: 0.3s
+}
+
+/*page histoire */
+div{
+	margin: 0;
+	padding: 0;
+}
+div.content{
+	margin: 0 auto;
+	width: 70.55%;
+}
+/* couleur de fond*/
+div.content div.beginning{ 
+	background: #3C3D3F;
+}
+div.content div.son{
+	background: black;
+}
+div.content div.color{
+	background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+}
+
+
+
+
+
+
+div.content div.beginning h1{
+	font-family: "ROAD MOVIE";
+	font-size: 4.8vw;
+	color: white;
+}
+div.content div.beginning h2{
+	color: white;
+	text-shadow: 3px -1px 8px rgba(0, 0, 0, 1);
+	font-family: "ROAD MOVIE";
+}
+div.content div.beginning, div.son, div.color p{
+	color: white;
+	font-size: 2.5vw;
+}
+
+div.content div.beginning div.lumiere img{
+	position: absolute;
+	right: 80%;
+}
+
+
+.lumiere{
+	float: right;
+	width: 25vw;
+}
+
+.lune{
+	position: relative;
+	top: 10%;
+}
+
+
+div.content div.son img{
+	position: relative;
+	float: top;
+	float: right;
+	width: 220px;
+	height: 220px;
+}
+
+/* son*/
+div.content div.son{
+	background: black;
+/* color */ 
+}
+div.content div.color{
+	background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+}
+
+div.content div.color h1{
+	color: white;
+}
+
+/* critique */
+div.content img.Sabrina{
+	width: 400px;
+	height: 533px;
+	float: right;
+}
+
+
+
+/*logo */
+
+img.logo{
+	width: 50vw;
+}
+
+div.content div.beginning img.Player{
+	height: 491px;
+	width: 331px;
+	float: right;
+
+}
+
+::-webkit-scrollbar{
+	width: 12px;
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+	height: 300px;
+	background: grey;
+	border-radius: 6px;
+}
+
+
+iframe{
+	width: 56vw;
+	height: 31vw;
+}
+
